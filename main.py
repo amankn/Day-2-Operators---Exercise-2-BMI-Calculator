@@ -5,6 +5,22 @@ weight = input("enter your weight in kg: ")
 
 #Write your code below this line 👇
 
+print(type(height))
+
+print(type(weight))
+
+float_height = float(height)
+float_weight = float(weight)
+
+bmi = float_weight / (float_height ** 2)
+
+print(type(bmi))
+print(bmi)
+
+
+print(8/3,2)
+
+print(f"Your weight is {float_weight}")
 
 
 
